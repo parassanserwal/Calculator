@@ -1,0 +1,244 @@
+body{
+            background-color: #fafafa;
+        }
+        #mainbody{
+        height:504px;
+        width:495px;
+        /* background-color:black; */
+        border:5px solid rgb(225, 225, 225);
+        border:5px solid rgb(178, 178, 178);
+        margin:auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        }
+        #result{
+            width:413px;
+            font-size: 40px;
+        }
+        #outputdisplay{
+            height:60px;
+            width:420px;
+            border:3px solid rgb(178, 178, 178);
+            margin: 20px;
+            display:flex;
+            
+        }
+        #operatorsrow{
+            height:60px;
+            width:444px;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+        }
+        #add{
+            height:60px;
+            width:90px;
+            background-color:rgb(179, 179, 179);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        
+        }
+        #subtract{
+            height:60px;
+            width:90px;
+            background-color:rgb(179, 179, 179);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #multiply{
+            height:60px;
+            width:90px;
+            background-color:rgb(179, 179, 179);
+            border:1px solid rgb(178,178,178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #divide{
+            height:60px;
+            width:90px;
+            background-color:rgb(179, 179, 179);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no7to9{
+            height:60px;
+            width:444px;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+            margin:16px;
+        }
+        #no7{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no8{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no9{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #empty{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no4to6{
+            height:60px;
+            width:444px;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+        }
+        #no4{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no5{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no6{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #empty1{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no1to3{
+            height:60px;
+            width:444px;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+            margin:16px;
+        }
+        #no1{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no2{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no3{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #empty2{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no0toc{
+            height:60px;
+            width:444px;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+        }
+        #no0{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #no{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #noc{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
+        #noequal{
+            height:60px;
+            width:90px;
+            background-color:rgb(224, 224, 224);
+            border:1px solid rgb(178, 178, 178);
+            text-align: center;
+            margin:15px;
+            font-size: 45px;
+        }
